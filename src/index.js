@@ -4,6 +4,7 @@ import schema from './schema'
 import { connect } from './db/database' 
 
 const app = express()
+const port = 7000
 connect()
 
 app.get('/', (req, res) => {
@@ -17,4 +18,4 @@ app.use('/graphql', graphqlHTTP({
     schema: schema
 }))
 
-app.listen(7000, () => console.log('Server on port 7000'))
+app.listen(port, () => console.log(`🔥🔥🔥 Server on port ${port} 🔥🔥🔥`))

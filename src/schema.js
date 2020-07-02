@@ -34,7 +34,6 @@ export const typeDefs = `
     } 
 
 `
-
 export default makeExecutableSchema({
     typeDefs: typeDefs,
     resolvers: resolvers

@@ -1,6 +1,6 @@
 # graphql-nodejs-mongodb-api
 
-Implementación de GraphQL en una simple API REST creada con NodeJS, ExpressjS y MongoDB.
+Implementación de GraphQL en una simple API REST creada con NodeJS, ExpressJS y MongoDB.
 
 # Implementación
 
